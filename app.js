@@ -15,12 +15,14 @@ console.log("-------------------");
 // elimina el ultimo elemento de un array y lo devuelve
 
 // practica: 
-
+// elimina el ultimo elemento de practiceArray
 practiceArray.pop() // elimina el ultimo elemento de practiceArray / 32
 console.log(practiceArray);
 
-let count = 15
-for (let i = 0; i > count; i++) {
+// Ejercicio para eliminar los ultimos elementos de un array en repetidas ocasiones
+// cantidad de veces que quiero que se repita la accion
+let count = 4
+for (let i = 0; i < count; i++) {
     numbersArray.pop()
 }
 console.log(numbersArray);
@@ -33,12 +35,30 @@ console.log("-------------------");
 
 // practica:
 
+// con el metodo push() le devolvi los elementos eliminados con la anterior practica
+numbersArray.push(34, 56, 78, 90)
+console.log(numbersArray);
+
+// se agregaron 2 elementos nuevos al final del array
+stringsArray.push("Pera","Sandia")
+console.log(stringsArray)
+
 console.log("-------------------");
 
 // metodo shift()
 // elimina el primer elemento de un array y lo devuelve
 
 // practica:
+numbersArray.shift() 
+console.log(numbersArray);
+
+let arroz = 3
+for (let i = 0; i < arroz; i++){
+    numbersArray.shift()
+}
+console.log(numbersArray);
+
+
 
 console.log("-------------------");
 
