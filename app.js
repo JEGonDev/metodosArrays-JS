@@ -10,7 +10,7 @@ const numbersArray = [10, 23, 45, 67, 89, 12, 34, 56, 78, 90];
 const stringsArray = ["apple", "banana", "cherry", "date", "fig", "grape", "kiwi", "lemon", "mango", "nectarine"];
 
 console.log("-------------------");
-
+saafrgegergregre
 // metodo pop()
 // elimina el ultimo elemento de un array y lo devuelve
 
